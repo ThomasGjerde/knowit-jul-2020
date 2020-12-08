@@ -14,10 +14,11 @@ for trunc_idx in truncs:
         while True:
             current_left = forest[y][trunc_idx + x_offset]
             current_right = forest[y][trunc_idx - x_offset]
+
             if (current_right == last_right == ' ') or \
-               (current_left == last_left == ' '):
-               break
-            if current_left != current_right:
+               (current_left == last_left == ' '):  # Horizontal end of tree
+                break
+            if current_left != current_right:  # Asymmetric tree
                 trunc_valid = False
                 break
             last_left = current_left
@@ -25,6 +26,6 @@ for trunc_idx in truncs:
             x_offset += 1
         y -= 1
     if trunc_valid and y < len(forest) - 2 and \
-       forest[y+1][trunc_idx +1] == forest[y+1][trunc_idx-1] == ' ':
+       forest[y + 1][trunc_idx + 1] == forest[y + 1][trunc_idx - 1] == ' ':
         valid += 1
 print(valid)
