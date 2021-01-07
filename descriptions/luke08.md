@@ -16,11 +16,11 @@ J...
 ```
 Julenissen starter her på J i (0, 0) og han skal først til Rovaniemi, deretter videre til Nordpolen. Turen hans går som følger:
 
-Han drar østover til (1, 0). Nordpolen på (3, 4) er nå 6 ruter unna i Taxicab Geometry så der går det 0.5 sekunder. Han er nærmere Rovaniemi enn 5 ruter, dermed har det i Rovaniemi kun gått 0.25 sekunder.
-Han reiser nordover til Rovaniemi på (1, 1). Der går det nå 0 sekunder. Nordpolen er nå nøyaktig 5 ruter unna så der går det 0.5 sekunder.
-(2, 1), Rovaniemi +0.25s. Nordpolen er nå nærmere enn 5 ruter, så der går det 0.25s.
-(3, 1), Rovaniemi +0.25s, Nordpolen +0.25s.
-(3, 2), Rovaniemi +0.25s, Nordpolen +0.25s.
-(3, 3), Rovaniemi +0.25s, Nordpolen +0.25s.
-(3, 4), Rovaniemi +0.5s, Nordpolen +0.00s.
+1. Han drar østover til (1, 0). Nordpolen på (3, 4) er nå 6 ruter unna i Taxicab Geometry så der går det 0.5 sekunder. Han er nærmere Rovaniemi enn 5 ruter, dermed har det i Rovaniemi kun gått 0.25 sekunder.
+2. Han reiser nordover til Rovaniemi på (1, 1). Der går det nå 0 sekunder. Nordpolen er nå nøyaktig 5 ruter unna så der går det 0.5 sekunder.
+3. (2, 1), Rovaniemi +0.25s. Nordpolen er nå nærmere enn 5 ruter, så der går det 0.25s.
+4. (3, 1), Rovaniemi +0.25s, Nordpolen +0.25s.
+5. (3, 2), Rovaniemi +0.25s, Nordpolen +0.25s.
+6. (3, 3), Rovaniemi +0.25s, Nordpolen +0.25s.
+7. (3, 4), Rovaniemi +0.5s, Nordpolen +0.00s.  
 Det har gått 1.75 sekunder i Rovaniemi og 2 sekunder på Nordpolen. Svaret er 0.25.

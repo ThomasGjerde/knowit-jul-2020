@@ -12,5 +12,7 @@ Oppgave
 Julenissen vil vite hvor mange biter han kan gi til hver alv uten at noen får mer enn andre.
 
 Eksempel
+```
 10,14,14,13,13,13,15,14,11,15,11
+```
 For de 11 pakkene over for 9 alver vil svaret være 13.
